@@ -1,0 +1,33 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+/*основной цвет текста #212121*/
+/*вторичный цвет текста #757575*/
+/*белый цвет текса #FFFFFF*/
+/*акцент #2196F3*/
+/*цвет фона #2196F3*/
+
+/*оформление главной страницы*/
+
+.body {
+  background-color: #ffffff;
+}
+.page-header .link {
+  color: var(--primary-text-color);
+}
+.page-header .link:hover,
+.page-header .link:focus {
+  color: var(--accent-color);
+}
+
+.page-header .contact {
+  color: var(--secondary-text-color);
+}
+.page-header .contact:hover,
+.page-header .contact:focus {
+  color: var(--accent-color);
+}
