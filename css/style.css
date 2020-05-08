@@ -41,7 +41,7 @@ body {
 /* оформляет логотип */
 .site-logo {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
