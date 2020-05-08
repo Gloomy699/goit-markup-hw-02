@@ -11,7 +11,7 @@
 /*белый цвет текса #FFFFFF*/
 /*акцент #2196F3*/
 /*цвет фона #2196F3*/
-
+/* добавил цвет фона везде где основной цвет БЕЛЫЙ */
 /*оформление главной страницы*/
 
 body {
@@ -72,7 +72,7 @@ body {
   color: var(--accent-color);
 }
 
-/* оформлет основной банер */
+/* оформлет основной банер (фон добавлен чтоб было видно слова белого цвета) */
 .hero .title {
   background-color: var(--secondary-text-color);
   color: var(--white-text-color);
@@ -82,7 +82,6 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 .hero .primary-button {
   background-color: var(--accent-color);
@@ -95,7 +94,7 @@ body {
   text-align: center;
 }
 
-/* оформляет секцию преимуществ */
+/* оформляет секцию преимуществ (оформляет логический заголовок, пока не знаю как его скрыть) */
 .page-advantages .shadow {
   color: rgba(47, 48, 58, 0.1);
 }
@@ -222,7 +221,7 @@ body {
   background-color: var(--background-color-dark-grey);
 }
 
-/* оформляет страницу портфолио */
+/* оформляет страницу портфолио (оформляет логический заголовок, пока не знаю как его скрыть)*/
 
 .page-portfolio .shadow {
   color: rgba(47, 48, 58, 0.1);
