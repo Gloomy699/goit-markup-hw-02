@@ -11,27 +11,27 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--шапка сайта-->
-    <header>
+     <!--шапка сайта-->
+     <header class="page-header">
       <nav>
-        <a href=""><span>Web</span><span>Studio</span></a>
-        <ul>
-          <li><a href="./index.html">студия</a></li>
-          <li><a href="./portfolio.html">портфолио</a></li>
-          <li><a href="">контакты</a></li>
+        <a href="" class="site-logo"><span>Web</span> Studio</a>
+        <ul class="nav-list list">
+          <li><a href="./index.html" class="link">студия</a></li>
+          <li><a href="./portfolio.html" class="link">портфолио</a></li>
+          <li><a href="" class="link">контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="nav-list list">
         <li>
-          <a href="mailto:info@devstudio.com"
-            ><img src="./image/envelope(hover).svg" alt="иконка конверт" />
-            info@devstudio.com</a
+          <a href="mailto:info@devstudio.com" class="contact"
+            ><img src="./image/envelope(hover).svg" alt="иконка конверт"/
+            >info@devstudio.com</a
           >
         </li>
 
         <li>
-          <a href="tell:+380961111111"
-            ><img src="./image/smartphone.svg" alt="иконка телефон" />+38 096
+          <a href="tell:+380961111111" class="contact"
+            ><img src="./image/smartphone.svg" alt="иконка телефон"/ >+38 096
             111 11 11</a
           >
         </li>
@@ -40,19 +40,19 @@
     <!--основной контент-->
     <main>
       <!--фильтры-->
-      <ul>
-        <li><a href="">Все</a></li>
-        <li><a href="">Веб-сайта</a></li>
-        <li><a href="">Приложения</a></li>
-        <li><a href="">Дизайн</a></li>
-        <li><a href="">Маркетинг</a></li>
+      <ul class="filter-list list">
+        <li><a href="" class="filter-button link">Веб-сайта</a></li>
+        <li><a href="" class="filter-button link">Все</a></li>
+        <li><a href="" class="filter-button link">Приложения</a></li>
+        <li><a href="" class="filter-button link">Дизайн</a></li>
+        <li><a href="" class="filter-button link">Маркетинг</a></li>
       </ul>
       <!--портфолио-->
-      <section>
-        <h1>примеры работ</h1>
-        <ul>
+      <section class="page-portfolio">
+        <h1 class="shadow">примеры работ</h1>
+        <ul class="portfoli-list list">
           <li>
-            <a href=""
+            <a href="" class="link"
               ><img
                 src="./image/portfolio.jpg"
                 alt="изображение людей на экране ноутбука"
@@ -69,7 +69,7 @@
           </li>
 
           <li>
-            <a href=""
+            <a href="" class="link"
               ><img
                 src="./image/poster.jpg"
                 alt="изображение двух баскетболистов"
@@ -86,7 +86,7 @@
           </li>
 
           <li>
-            <a href=""
+            <a href="" class="link"
               ><img
                 src="./image/sea-food.jpg"
                 alt="изображение эмблемы рыбного ресторана"
@@ -137,7 +137,7 @@
           </li>
 
           <li>
-            <a href=""
+            <a href="" class="link"
               ><img
                 src="./image/monitor.jpg"
                 alt="изображение монитора"
@@ -206,49 +206,71 @@
         </ul>
       </section>
     </main>
-    <!--подвал сайта-->
-    <footer>
+    <footer class="footer-page">
       <!--левая сторона-->
-      <div>
-        <p><span>Web</span> Studio</p>
+      <div class="address">
+        <a href="" class="site-logo"><span>Web</span> Studio</a>
         <address>
-          <ul>
-            <li><a href="#">г. Киев, пр-т Леси Украинки, 26</a></li>
+          <ul class="address-list list">
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a href="#" class="city-adr">г. Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li><a href="tell:+380991111111">+38 099 111 11 11</a></li>
+            <li>
+              <a href="mailto:info@example.com" class="contact"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tell:+380991111111" class="contact">+38 099 111 11 11</a>
+            </li>
           </ul>
         </address>
       </div>
       <!--середина-->
-      <div>
-        <b>присоединяйтесь</b>
-        <ul>
+      <div class="social-link">
+        <b class="join-in">присоединяйтесь</b>
+        <ul class="soc-link list">
           <li>
-            <a href="https://www.instagram.com" aria-label="Ссылка на Instagram"
+            <a
+              href="https://www.instagram.com"
+              class="link"
+              aria-label="Ссылка на Instagram"
               >Instagram</a
             >
           </li>
           <li>
-            <a href="https://www.twitter.com" aria-label="Ссылка на Twitter"
+            <a
+              href="https://www.twitter.com"
+              class="link"
+              aria-label="Ссылка на Twitter"
               >Twitter</a
             >
           </li>
           <li>
-            <a href="https://www.facebook.com" aria-label="Ссылка на Facebook"
+            <a
+              href="https://www.facebook.com"
+              class="link"
+              aria-label="Ссылка на Facebook"
               >Facebook</a
             >
           </li>
           <li>
-            <a href="https://www.linkedin.com" aria-label="Ссылка на LinkedIn"
+            <a
+              href="https://www.linkedin.com"
+              class="link"
+              aria-label="Ссылка на LinkedIn"
               >LinkedIn</a
             >
           </li>
         </ul>
       </div>
       <!--правая сторона-->
-      <p>2020 | Developed by GoIT Students</p>
+
+      <div class="subscription">
+        <p class="join-in">подписаться на страницу</p>
+        <a href="#" class="secondary-button">подписаться</a>
+      </div>
+      <p class="dev-team">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

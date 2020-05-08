@@ -160,7 +160,7 @@ body {
   line-height: 1.71;
   text-decoration: none;
 }
-.address .connect {
+.address .contact {
   background-color: var(--background-color-dark-grey);
   color: rgba(255, 255, 255, 0.6);
 
@@ -221,3 +221,27 @@ body {
   color: rgba(255, 255, 255, 0.4);
   background-color: var(--background-color-dark-grey);
 }
+
+
+/* оформляет страницу портфолио */
+
+
+/* оформляет фильтр */
+.filter-button {
+  color: var(--primary-text-color);
+  background-color: #F5F4FA;
+
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+}
+
+.filter-button:hover, .filter-button:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+
+/* оформляет примеры работ */
+
