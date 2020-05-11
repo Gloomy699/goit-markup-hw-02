@@ -55,6 +55,9 @@ body {
 .page-header .link {
   color: var(--primary-text-color);
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
 }
 .page-header .link:hover,
 .page-header .link:focus {
@@ -66,6 +69,9 @@ body {
   color: var(--secondary-text-color);
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
 }
 .page-header .contact:hover,
 .page-header .contact:focus {
@@ -103,6 +109,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .page-advantages .description {
   color: var(--secondary-text-color);
@@ -145,10 +152,15 @@ body {
   color: var(--white-text-color);
 }
 
+/* оформляет футер */
+.footer-page {
+  background-color: #2f303a;
+}
 /* оформляет адрес*/
 .address .site-logo {
   color: var(--white-text-color);
   background-color: var(--background-color-dark-grey);
+  font-size: 22px;
 }
 .address .city-adr {
   color: #ffffff;
